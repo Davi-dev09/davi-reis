@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de David Reis - Desenvolvedor Web Senior especializado em React, Next.js e TypeScript">
+    <meta name="theme-color" content="#0f172a">
+    
+    <title>David Reis - Desenvolvedor Web Senior</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">David<span class="logo-accent">.</span></div>
+                
+                <!-- Desktop Menu -->
+                <div class="nav-menu desktop">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#services" class="nav-link">Serviços</a>
+                    <a href="#portfolio" class="nav-link">Portfólio</a>
+                    <a href="#tech" class="nav-link">Tecnologias</a>
+                    <a href="#testimonials" class="nav-link">Depoimentos</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="nav-menu mobile" id="mobileMenu">
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
+                <a href="#tech" class="nav-link">Tecnologias</a>
+                <a href="#testimonials" class="nav-link">Depoimentos</a>
+                <a href="#contact" class="btn btn-primary" style="margin-top: 20px;">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">✨ Desenvolvedor Senior & Consultant</div>
+                    
+                    <h1 class="hero-title">
+                        Código que<br><span class="gradient-text">gera resultados</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Desenvolvimento web premium com foco em performance, conversão e experiência do usuário extraordinária.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projetos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Satisfação</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Anos</div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">Ver Projetos →</a>
+                        <a href="#contact" class="btn btn-outline">Contato</a>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-avatar">
+                        <span>👨‍💻</span>
+                        <p>David Reis</p>
+                        <small>Web Developer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Background Elements -->
+        <div class="bg-blur blur-1"></div>
+        <div class="bg-blur blur-2"></div>
+        <div class="bg-blur blur-3"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about section-spacing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre <span class="gradient-text">mim</span></h2>
+                <p>Desenvolvedor com mais de 8 anos de experiência transformando ideias em produtos digitais de alto impacto</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Minha missão é criar experiências digitais que não apenas funcionam perfeitamente, mas que transformam o modo como as pessoas interagem com a tecnologia. Acredito que código bom é código elegante, eficiente e feito com propósito.</p>
+                    
+                    <p>Especializei-me em construir plataformas escaláveis que crescem com seu negócio, sempre mantendo foco em performance, segurança e experiência do usuário excepcional.</p>
+                    
+                    <p>Quando não estou codificando, estou aprendendo novas tecnologias, contribuindo para open source ou ajudando outros desenvolvedores a crescerem profissionalmente.</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-item">✓ Desenvolvimento Full-Stack</div>
+                    <div class="skill-item">✓ Design Responsivo</div>
+                    <div class="skill-item">✓ Performance Web</div>
+                    <div class="skill-item">✓ Segurança Digital</div>
+                    <div class="skill-item">✓ SEO Avançado</div>
+                    <div class="skill-item">✓ Arquitetura de Sistemas</div>
+                    <div class="skill-item">✓ Otimização de Conversão</div>
+                    <div class="skill-item">✓ Desenvolvimento Ágil</div>
+                </div>
+            </div>
+            
+            <!-- Expertise Cards -->
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h3>Frontend Moderno</h3>
+                    <p>React, Next.js, TypeScript e design systems escaláveis com TailwindCSS.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Backend Robusto</h3>
+                    <p>Node.js, APIs RESTful e GraphQL com arquitetura limpa e performance.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Bancos de Dados</h3>
+                    <p>PostgreSQL, MongoDB e otimização de queries para máxima eficiência.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>DevOps & Deployment</h3>
+                    <p>Docker, CI/CD, AWS e Vercel para deployments seguros e automáticos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services section-spacing">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="gradient-text">Serviços</span> que entrego</h2>
+                <p>Soluções completas de desenvolvimento web para empresas que querem crescer</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Desenvolvimento de Sites Profissionais</h3>
+                    <p>Websites modernos, rápidos e escaláveis utilizando as melhores tecnologias do mercado.</p>
+                    <ul class="service-features">
+                        <li>Design responsivo e moderno</li>
+                        <li>Otimizado para SEO</li>
+                        <li>Performance máxima</li>
+                        <li>Integração com CMS</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Landing Pages de Alta Conversão</h3>
+                    <p>Landing pages estratégicas focadas em resultados, com análise de dados e otimização contínua.</p>
+                    <ul class="service-features">
+                        <li>Copy persuasivo</li>
+                        <li>Otimização de conversão</li>
+                        <li>A/B Testing</li>
+                        <li>Analytics integrado</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Sistemas Web Personalizados</h3>
+                    <p>Plataformas completas e customizadas para sua empresa com arquitetura robusta.</p>
+                    <ul class="service-features">
+                        <li>Backend robusto</li>
+                        <li>Dashboard intuitivo</li>
+                        <li>Autenticação segura</li>
+                        <li>Escalabilidade garantida</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Otimização e Performance</h3>
+                    <p>Melhora de velocidade, SEO e experiência do usuário em projetos existentes.</p>
+                    <ul class="service-features">
+                        <li>Auditoria completa</li>
+                        <li>Otimização de código</li>
+                        <li>Melhor Core Web Vitals</li>
+                        <li>Monitoramento contínuo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio section-spacing">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="gradient-text">Portfólio</span> de projetos</h2>
+                <p>Projetos em que deixei minha marca, com foco em qualidade e resultados</p>
+            </div>
+            
+            <!-- Filters -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="saas">SaaS</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <img src="https://via.placeholder.com/400x300?text=SaaS+Analytics" alt="SaaS Analytics">
+                    <div class="project-info">
+                        <div class="project-category">Web Application</div>
+                        <h3>SaaS Analytics Platform</h3>
+                        <p>Plataforma completa de analytics em tempo real com dashboard intuitivo.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-result">+300% em performance</div>
+                        <a href="#" class="btn-small">Ver Projeto →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ecommerce">
+                    <img src="https://via.placeholder.com/400x300?text=Luxury+Store" alt="Luxury Store">
+                    <div class="project-info">
+                        <div class="project-category">E-commerce</div>
+                        <h3>E-commerce Luxury Brand</h3>
+                        <p>Loja online de alta-end com design minimalista e experiência premium.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Stripe</span>
+                        </div>
+                        <div class="project-result">+450% em vendas</div>
+                        <a href="#" class="btn-small">Ver Projeto →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <img src="https://via.placeholder.com/400x300?text=Marketing+Agency" alt="Marketing Agency">
+                    <div class="project-info">
+                        <div class="project-category">Corporate</div>
+                        <h3>Digital Marketing Agency</h3>
+                        <p>Website moderno e responsivo com portfólio interativo.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>TailwindCSS</span>
+                            <span>Framer Motion</span>
+                        </div>
+                        <div class="project-result">+250% em leads</div>
+                        <a href="#" class="btn-small">Ver Projeto →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="saas">
+                    <img src="https://via.placeholder.com/400x300?text=Project+Management" alt="Project Management">
+                    <div class="project-info">
+                        <div class="project-category">SaaS</div>
+                        <h3>SaaS Project Management</h3>
+                        <p>Ferramenta colaborativa com real-time sync e integração.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>WebSockets</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-result">+500% em produtividade</div>
+                        <a href="#" class="btn-small">Ver Projeto →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="landing">
+                    <img src="https://via.placeholder.com/400x300?text=Landing+Page" alt="Landing Page">
+                    <div class="project-info">
+                        <div class="project-category">Landing Page</div>
+                        <h3>Personal Branding Landing Page</h3>
+                        <p>Landing page de alto impacto com design moderno e conversão otimizada.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-result">+600% em conversão</div>
+                        <a href="#" class="btn-small">Ver Projeto →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ecommerce">
+                    <img src="https://via.placeholder.com/400x300?text=Fashion+Store" alt="Fashion Store">
+                    <div class="project-info">
+                        <div class="project-category">E-commerce</div>
+                        <h3>Fashion E-commerce Platform</h3>
+                        <p>Plataforma de moda com sistema de recomendação AI.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-result">+380% em vendas</div>
+                        <a href="#" class="btn-small">Ver Projeto →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGIES SECTION -->
+    <section id="tech" class="technologies section-spacing">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="gradient-text">Tecnologias</span> que domino</h2>
+                <p>Stack moderno e as melhores práticas de desenvolvimento</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <span>React</span>
+                        <span>Next.js 14</span>
+                        <span>TypeScript</span>
+                        <span>TailwindCSS</span>
+                        <span>Framer Motion</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-items">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>NestJS</span>
+                        <span>GraphQL</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Bancos de Dados</h3>
+                    <div class="tech-items">
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Redis</span>
+                        <span>Firebase</span>
+                        <span>Prisma</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>DevOps & Cloud</h3>
+                    <div class="tech-items">
+                        <span>Docker</span>
+                        <span>CI/CD</span>
+                        <span>AWS</span>
+                        <span>Vercel</span>
+                        <span>GitHub Actions</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Ferramentas</h3>
+                    <div class="tech-items">
+                        <span>Git</span>
+                        <span>Webpack</span>
+                        <span>Vite</span>
+                        <span>NPM</span>
+                        <span>Linux</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Segurança</h3>
+                    <div class="tech-items">
+                        <span>JWT</span>
+                        <span>OAuth 2.0</span>
+                        <span>SSL/TLS</span>
+                        <span>OWASP</span>
+                        <span>Encryption</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Info Card -->
+            <div class="tech-info">
+                <p>Além disso, estou sempre aprendendo e explorando novas tecnologias para entregar as melhores soluções. Especialista em otimização, performance e arquitetura escalável.</p>
+                <div class="tech-stats">
+                    <div>
+                        <strong>8+ anos</strong>
+                        <span>Experiência</span>
+                    </div>
+                    <div>
+                        <strong>50+ Projetos</strong>
+                        <span>Entregues</span>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <span>Satisfação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials section-spacing">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que dizem sobre <span class="gradient-text">meu trabalho</span></h2>
+                <p>Depoimentos de clientes que transformaram seus negócios</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"David transformou completamente a presença digital da nossa empresa. O resultado superou todas as expectativas e gerou mais leads em 3 meses do que em todo o ano anterior."</p>
+                    <div class="testimonial-author">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Marina" alt="Marina Silva">
+                        <div>
+                            <strong>Marina Silva</strong>
+                            <small>CEO • TechStart Co.</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Profissionalismo e qualidade em cada detalhe. David entrega projetos que não só funcionam perfeitamente, mas que também impressionam clientes. Recomendo fortemente."</p>
+                    <div class="testimonial-author">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos" alt="Carlos Mendes">
+                        <div>
+                            <strong>Carlos Mendes</strong>
+                            <small>Founder • Digital Agency Pro</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Raro encontrar um desenvolvedor que compreende tanto de tecnologia quanto de negócios. David não só codifica, mas estrategiza. Parceria de valor agregado genuíno."</p>
+                    <div class="testimonial-author">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Juliana" alt="Juliana Costa">
+                        <div>
+                            <strong>Juliana Costa</strong>
+                            <small>Product Manager • Innovation Labs</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="prev-btn" id="prevBtn">❮</button>
+                <div class="dots">
+                    <button class="dot active" data-index="0"></button>
+                    <button class="dot" data-index="1"></button>
+                    <button class="dot" data-index="2"></button>
+                </div>
+                <button class="next-btn" id="nextBtn">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section id="contact" class="cta section-spacing">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Vamos <span class="gradient-text">transformar</span> sua ideia em realidade</h2>
+                <p>Tenho expertise e paixão por criar soluções digitais excepcionais. Vamos conversar sobre seu projeto.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:contato@davidreis.com" class="btn btn-primary">Iniciar Projeto →</a>
+                </div>
+                <p class="cta-email">Ou envie um email: <a href="mailto:contato@davidreis.com">contato@davidreis.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>David<span class="logo-accent">.</span></h3>
+                    <p>Desenvolvedor Web Senior especializado em soluções modernas e escaláveis.</p>
+                </div>
+                <div>
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Redes Sociais</h4>
+                    <div class="social-footer">
+                        <a href="https://github.com" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com" target="_blank">Twitter</a>
+                        <a href="mailto:contato@davidreis.com">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 David Reis. Todos os direitos reservados.</p>
+                <p>Desenvolvido com HTML + CSS + JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
